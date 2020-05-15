@@ -6,6 +6,8 @@ The application automaticly detects the available GetConnectors attached to your
 
 > The application acts as a bridge. No data is stored or preloaded. 
 
+When PowerBI has loaded the data, you can close this application and you can share your PowerBI report with everyone (including the loaded data), upload it to the Online PowerBI to share the PowerBI dataset there, etc. Whenever you need to 'refresh' the data, you startup this application again and perform a refresh. For use cases where frequent and/or automatated refresh is necessary, use our hosted variant (see below).  
+
 ## Usage
 
 1. Download the application from the [release](https://github.com/dutchgrit/afasodataserver/releases) tab above. Choose the approriate x86 (32 bit) or x64 (64 bit) release. The files are big because we ship the .NET Core 3.1 framework along with it for convenience. Extract the zip file and look for the `AfasODataApp.exe` application. 
