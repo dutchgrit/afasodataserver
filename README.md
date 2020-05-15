@@ -11,12 +11,14 @@ The application automaticly detects the available GetConnectors in your token an
 1. Download the application from the release tab above. Choose the approriate x86/x64 release. The release files are big because we ship the .NET Core 3.1 framework along with it for convenience.
 
 2. Fill in you number and token and hit Start Server.
+
 ![](img/ODataServer.png)
 
 Wait for the message that server is started. You can find it at http://localhost:5000/odata
 
 3. Start Power BI Desktop, Get Data and choose OData Feed.
 Supply the OData endpoint
+
 ![](img/PowerBI-ODataFeed.png)
 
 4. Preview, select and load all your GetConnectors at once.
@@ -46,7 +48,9 @@ The following OData options are implemented, but handled locally (after the GetC
 Sample (assuming that ProfitVATcode is included in your GetConnectors) 
 
 http://localhost:5000/odata/ProfitVATcode?$skip=10&$top=10
+
 http://localhost:5000/odata/ProfitVATcode?$orderBy=Description
+
 http://localhost:5000/odata/ProfitVATcode?$filter=VatType%20eq%20%27V%27
 
 ## Troubles
