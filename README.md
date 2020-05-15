@@ -1,14 +1,14 @@
 # DutchGrit - Afas OData Server - for Power BI
 
-The DutchGrit Afas OData Server is a (free) Desktop application which forms a easy to use bridge between Power BI and the Online Afas GetConnector API's. The only thing you need is your Afas number and a valid Token. 
+The DutchGrit Afas OData Server is a (free) Desktop application which forms a easy to use connection between Power BI and the Online Afas GetConnector API's. The only thing you need is your Afas number and a valid Token, which is a lot easier!
 
-The application automaticly detects the available GetConnectors in your token and translates any OData query into GetConnector API call's on the fly. 
+The application automaticly detects the available GetConnectors attached to your token and translates any OData query into GetConnector API call's on the fly. 
 
-> The application acts as a bridge. No data is preloaded or stored! 
+> The application acts as a bridge. No data is stored or preloaded. 
 
 ## Usage
 
-1. Download the application from the release tab above. Choose the approriate x86/x64 release. The release files are big because we ship the .NET Core 3.1 framework along with it for convenience.
+1. Download the application from the [release](https://github.com/dutchgrit/afasodataserver/releases) tab above. Choose the approriate x86 (32 bit) or x64 (64 bit) release. The files are big because we ship the .NET Core 3.1 framework along with it for convenience. Extract the zip file and look for the `AfasODataApp.exe` application. 
 
 2. Fill in you number and token and hit Start Server.
 
