@@ -1,5 +1,7 @@
 # DutchGrit - Afas OData Server - for Power BI
 
+> Note: version 1.0.0 can cause an meaningless Unauthorized message. See this [issue](https://github.com/dutchgrit/afasodataserver/issues/1)  
+
 The DutchGrit Afas OData Server is a (free) Desktop application which forms a easy to use connection between Power BI and the Online Afas GetConnector API's. The only thing you need is your Afas number and a valid Token, which is a lot easier!
 
 The application automaticly detects the available GetConnectors attached to your token and translates any OData query into GetConnector API call's on the fly. 
